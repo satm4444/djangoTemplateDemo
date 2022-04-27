@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% load static %}
+  <head>
+    <title>Employee Template</title>
+    <link rel="stylesheet" href="{% static 'css/emp.css' %}" />
+  </head>
+  <body>
+    <h1>Employee Information</h1>
+    <br />
+
+    <ol>
+      <li>Id : {{id}}</li>
+      <li>Name : {{name}}</li>
+      <li>Address : {{address}}</li>
+    </ol>
+    <img src="{% static 'images/piz.jpg' %}" alt="" />
+  </body>
+</html>
